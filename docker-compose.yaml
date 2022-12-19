@@ -1,0 +1,9 @@
+services:
+  node:
+    build: .
+    volumes:
+      - ./app:/app
+    ports:
+      - "3000:3000"
+    user: node
+    command: nodemon --watch /app /app/server.js

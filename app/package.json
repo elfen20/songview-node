@@ -1,0 +1,13 @@
+{
+  "name": "songview",
+  "version": "1.0.0",
+  "description": "Show songs with tabs",
+  "main": "index.js",
+  "dependencies": {
+    "fastify": "latest",
+    "@fastify/static": "latest",
+    "path": "latest"
+  },
+  "author": "elfen20",
+  "license": "GPL"
+}
