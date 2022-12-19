@@ -1,5 +1,5 @@
 services:
-  node:
+  server:
     build: .
     volumes:
       - ./app:/app
